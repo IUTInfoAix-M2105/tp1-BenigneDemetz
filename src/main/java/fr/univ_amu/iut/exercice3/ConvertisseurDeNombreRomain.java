@@ -13,6 +13,8 @@ public class ConvertisseurDeNombreRomain {
                 throw new IllegalArgumentException();
             case "II":
                 return 2;
+            case "III":
+                return 3;
             default:
                 throw new RuntimeException("Not yet implemented !");
         }
