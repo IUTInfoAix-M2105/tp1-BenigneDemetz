@@ -14,15 +14,10 @@ public class FizzBuzzer {
 
     public String[] computeList(int i) {
         String[] resultats = new String[i];
-        if (i == 5)
+        for (int j=0; j < i; j++)
         {
-            for (int j=1; j <= 5; j++)
-            {
-                resultats[j-1] = computeString(j);
-            }
-            return resultats;
+            resultats[j] = computeString(j+1);
         }
-
-        throw new RuntimeException("Not yet implemented !");
+        return resultats;
     }
 }
