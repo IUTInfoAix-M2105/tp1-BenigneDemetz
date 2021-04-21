@@ -7,6 +7,8 @@ public class ConvertisseurDeNombreRomain {
                 return 1;
             case "V":
                 return 5;
+            case "XXX":
+                return 30;
             case "X":
                 return 10;
             case "Z":
@@ -15,6 +17,8 @@ public class ConvertisseurDeNombreRomain {
                 return 2;
             case "III":
                 return 3;
+            case "IIII":
+                throw new IllegalArgumentException();
             default:
                 throw new RuntimeException("Not yet implemented !");
         }
