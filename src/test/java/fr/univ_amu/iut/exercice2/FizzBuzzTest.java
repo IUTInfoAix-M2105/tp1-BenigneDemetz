@@ -29,14 +29,14 @@ public class FizzBuzzTest {
         assertEquals("Fizz", resultat);
     }
     
-    @Disabled
+
     @Test
     public void test_computeString_Should_Return_4_when_4() {
         String resultat = fizzBuzz.computeString(4);
         assertEquals("4", resultat);
     }
 
-    @Disabled
+
     @Test
     public void test_computeString_Should_Return_Buzz_when_5() {
         String buzz = "Buzz";
@@ -44,28 +44,28 @@ public class FizzBuzzTest {
         assertEquals("Buzz", buzz);
     }
 
-    @Disabled
+
     @Test
     public void test_computeString_Should_Return_Fizz_when_6() {
         String resultat = fizzBuzz.computeString(6);
         assertEquals("Fizz", resultat);
     }
 
-    @Disabled
+
     @Test
     public void test_computeString_Should_Return_Fizz_when_9() {
         String resultat = fizzBuzz.computeString(9);
         assertEquals("Fizz", resultat);
     }
 
-    @Disabled
+
     @Test
     public void test_computeString_Should_Return_Buzz_when_10() {
         String resultat = fizzBuzz.computeString(10);
         assertEquals("Buzz", resultat);
     }
 
-    @Disabled
+
     @Test
     public void test_computeString_Should_Return_FizzBuzz_when_15() {
         String resultat = fizzBuzz.computeString(15);
