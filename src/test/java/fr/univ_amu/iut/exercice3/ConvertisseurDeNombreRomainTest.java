@@ -65,14 +65,14 @@ public class ConvertisseurDeNombreRomainTest {
                 () ->convertisseurDeNombreRomain.enNombreArabe("IIII"));
     }
 
-    @Disabled
+
     @Test
     public void leChiffreRomainXXXDevraitDonner30() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("XXX");
         assertEquals(30, nombre);
     }
 
-    @Disabled
+
     @Test
     public void leChiffreRomainVIDevraitDonner6() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("VI");
