@@ -37,14 +37,14 @@ public class ConvertisseurDeNombreRomainTest {
         assertEquals(10, nombre);
     }
     
-    @Disabled
+
     @Test
     public void leChiffreRomainZDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,
                 () ->convertisseurDeNombreRomain.enNombreArabe("Z"));
     }
 
-    @Disabled
+
     @Test
     public void leChiffreRomainIIDevraitDonner2() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("II");
