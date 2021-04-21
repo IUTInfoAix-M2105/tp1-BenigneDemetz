@@ -18,7 +18,7 @@ public class FizzBuzzer {
         {
             for (int j=1; j <= 5; j++)
             {
-                resultats[j-1] = String.valueOf(j);
+                resultats[j-1] = computeString(j);
             }
             return resultats;
         }
