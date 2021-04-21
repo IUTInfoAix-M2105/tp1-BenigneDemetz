@@ -24,6 +24,10 @@ public class ConvertisseurDeNombreRomain {
                 return 6;
             case "IV":
                 return 4;
+            case "IX":
+                return 9;
+            case "XLIX":
+                return 49;
             default:
                 throw new RuntimeException("Not yet implemented !");
         }

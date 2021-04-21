@@ -86,14 +86,14 @@ public class ConvertisseurDeNombreRomainTest {
         assertEquals(4, nombre);
     }
 
-    @Disabled
+
     @Test
     public void leChiffreRomainIXDevraitDonner9() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("IX");
         assertEquals(9, nombre);
     }
 
-    @Disabled
+
     @Test
     public void leChiffreRomainXLIXDevraitDonner49() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("XLIX");
