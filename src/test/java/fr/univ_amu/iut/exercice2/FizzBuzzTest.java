@@ -3,6 +3,8 @@ package fr.univ_amu.iut.exercice2;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
@@ -72,7 +74,7 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", resultat);
     }
 
-    @Disabled
+
     @Test
     public void test_computeList_Should_Return_a_sequence_of_5_elements_when_5() {
         String[] resultat = fizzBuzz.computeList(5);
