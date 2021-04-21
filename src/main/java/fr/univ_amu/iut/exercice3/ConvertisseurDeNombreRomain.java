@@ -2,6 +2,7 @@ package fr.univ_amu.iut.exercice3;
 
 public class ConvertisseurDeNombreRomain {
     public int enNombreArabe(String i) {
+
         switch (i){
             case "I":
                 return 1;
@@ -21,6 +22,8 @@ public class ConvertisseurDeNombreRomain {
                 throw new IllegalArgumentException();
             case "VI":
                 return 6;
+            case "IV":
+                return 4;
             default:
                 throw new RuntimeException("Not yet implemented !");
         }
