@@ -22,7 +22,7 @@ public class FizzBuzzTest {
         assertEquals("2", resultat);
     }
 
-    @Disabled
+
     @Test
     public void test_computeString_Should_Return_Fizz_when_3() {
         String resultat = fizzBuzz.computeString(3);
